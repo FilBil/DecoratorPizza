@@ -8,7 +8,7 @@ namespace DecoratorPizza.Decorator
     public class PizzaDecorator : Pizza
     {
 
-        //obiekt który będzie dekorowany
+        // this object will be decorated
         protected Pizza _pizza;
 
         public PizzaDecorator(Pizza pizza)
